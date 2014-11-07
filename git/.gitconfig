@@ -1,0 +1,11 @@
+[user]
+  email = andrewtspalding@gmail.com
+  name = aspalding
+[core]
+  excludesfile = /Users/andrew/.gitignore_global
+  editor = /usr/bin/vim
+[alias]
+  co = checkout
+  lg = log --oneline
+  st = status
+  staged = diff --cached
