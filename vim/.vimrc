@@ -13,10 +13,10 @@ NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'godlygeek/tabular'
 NeoBundle 'plasticboy/vim-markdown'
-NeoBundle 'wting/rust.vim'
 NeoBundle 'kien/ctrlp.vim'
 
 "Programming languages
+NeoBundle 'wting/rust.vim'
 NeoBundle 'vim-scripts/VimClojure'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'kien/rainbow_parentheses.vim'
@@ -30,8 +30,8 @@ NeoBundleCheck
 "Highlight it all...
 syntax on
 set expandtab
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
 set smartindent
 set number
 

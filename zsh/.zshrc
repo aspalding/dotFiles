@@ -1,24 +1,20 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-# Maven Specific
-export JAVA_HOME=$(/usr/libexec/java_home)
-
-# Add RVM to PATH for scripting
-export PATH="$PATH:$HOME/.rvm/bin"
+# pbwhatever
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
-ZSH_THEME="robbyrussell"
+ZSH_THEME="nicoulaj"
 
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git, git-prompt, tmux)
+# Add wisely as too many plugins slow down shell startup.
+plugins=(git, git-prompt, vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:$HOME/.bin:$HOME/.rvm/bin:$HOME/node_modules/.bin"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -30,7 +26,7 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
 # export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
+DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
